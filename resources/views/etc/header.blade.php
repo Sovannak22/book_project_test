@@ -32,8 +32,9 @@
                     <li class="nav-item dropdown">
                         
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            <img style="border:solid black 2px;border-radius:25%" height="30px" width="30px" src="https://cdn.images.express.co.uk/img/dynamic/67/590x/Cristiano-Ronaldo-1008466.jpg?r=1535218537294"
+                            <img class="round-img" height="30px" width="30px" src="storage/profile_img/{{$user->img}}"
                                     alt="">
+                                    {{-- style="border:solid black 2px;border-radius:25%" --}}
                             {{ Auth::user()->name }} <span class="caret"></span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">

@@ -17,9 +17,11 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/profile', 'ProfileController@index');
+Route::get('/profile', 'UserProfileController@index');
 
 Auth::routes();
 
 
 Route::get('/uploadpic','uploadProfilePicController@uploadPic');
+
+Route::post('/updateprofile','UserProfileController@updateprofile');
