@@ -28,7 +28,7 @@
                             <label for="name" class="col-md-4 col-form-label text-md-right">Gender</label>
 
                             <div class="col-md-6">
-                                <select name="gender" id="">
+                                <select class="form-control" name="gender" id="">
                                     <option value="">Select gender: </option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>

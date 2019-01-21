@@ -35,8 +35,10 @@
                                     </div>
                                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                     <div class="row">
+                                        
                                         <input type="submit" class="m-3 btn btn-primary" value="Submit">
-                                        <input class="m-3 btn btn-danger" id="cancel-button" type="button" value="Cancel">
+                                        <a class="btn m-3 btn-danger" href="{{ route('profile') }}">Cancel</a>
+
                                     </div>
                                 </form>
                             </div>

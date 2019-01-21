@@ -3,9 +3,7 @@ $("#profile-img").change(function(){
     $("#form-img").removeClass("image-upload");
     readURL(this);
 });
-$('#cancel-button').click(function() {
-    location.reload();
-});
+
 });
 
 
