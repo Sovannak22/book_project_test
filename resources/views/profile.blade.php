@@ -23,7 +23,6 @@
                         </div>
                         <div class="d-flex justify-content-center">
                             <div class="row">
-                                {{-- {{$user->img}} --}}
                                 
                                 <form id="form-img" class=" image-upload" action="/updateprofile" enctype="multipart/form-data" method="POST">
                                     <div class="form-group">
